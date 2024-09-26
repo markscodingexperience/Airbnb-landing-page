@@ -1,0 +1,24 @@
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 200px; /* Adjust width based on the items' width */
+    margin-right: 10px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    aspect-ratio: 16 / 15;
+    margin-right: 10px;
+    border-radius: 14px;
+  }
+
+  .box {
+    
+    margin-right: 10px;
+  }
