@@ -21,7 +21,13 @@ const FooterLegend = () => {
         <Divider />
         <Box marginTop="30px" display="flex" flexDirection="row" justifyContent="space-between" alignItems="center">
             <Grid item>
-                <Typography>© 2024 Airbnb, Inc. • Privacy • Terms • Site Map</Typography>
+                <Typography sx={{
+                    fontSize: {
+                        xs: '11px',
+                        sm: '15px',
+                        md: 'initial'
+                    }
+                }}>© 2024 Airbnb, Inc. • Privacy • Terms • Site Map</Typography>
             </Grid>
             <Grid item display="flex">
                 <Typography level="body-lg" margin="10px"><ImFacebook2/> </Typography> 
